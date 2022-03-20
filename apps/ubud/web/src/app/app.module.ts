@@ -6,6 +6,9 @@ import { RouterModule } from '@angular/router';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import {UbudElementCommonNavComponentModule, UbudElementCommonSidebarComponentModule, UbudElementCommonCardComponentModule, UbudElementCommonPipesComponentModule }from '@ubud/element/common';
+import { AppTemplate } from './templates/app/app.template';
+
+
 @NgModule({
     declarations: [
         AppComponent,
